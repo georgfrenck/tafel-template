@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright 2010 Jasper Bosch (p.j.bosch@student.rug.nl)  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some parts of this theme are based on the 'diepentheme' %
+% by Guido Diepen <diepen@cs.uu.nl>                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ProvidesPackage{beamerthemeblackboard}
+
+\RequirePackage{beamerbasethemes}[2004/10/07]
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+%\usepackage[T1]{fontenc}
+%\usepackage{emerald}
+\useoutertheme{blackboard}
+
+% remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+\mode<presentation>
+
+% set text colors for different objects
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{structure}{fg=white}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{alerted text}{fg=orange}
+\setbeamercolor{example text}{fg=teal!40}
+\setbeamercolor{block title}{fg=teal!35}
+%\setbeamercolor{block title}{bg=teal!10,fg=black}
+%\definecolor{darkred}{rgb}{0.8,0,0}
+%\setbeamercolor{structure}{fg=darkred}
+%\setbeamercolor{block title}{fg=darkred,bg=structure.fg!20!bg!50!bg}
+%\setbeamercolor{block body}{use=block title,bg=block title.bg}
+
+% set fonts
+%\setbeamerfont{my frametitle}{size=\Huge, series=\ECFAugie}
+%\setbeamerfont{framesubtitle}{size=\large, series=\ECFAugie}
+%\setbeamerfont{title}{size=\huge, series=\ECFAugie}
+%\setbeamerfont{author}{size=\large}
+%\setbeamerfont{date}{size=\large}
+%\setbeamerfont{institute}{size=\large}
+%\setbeamerfont{caption}{series=\ECFAugie}
+%\setbeamerfont{block title}{series=\ECFAugie}
+%\setbeamerfont{theorem}{series=\ECFAugie}
